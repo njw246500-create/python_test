@@ -71,3 +71,14 @@ else :
         print("짝수입니다")
     else :
         print("홀수입니다")
+
+print("-"*30)
+
+if num1 == 0 : 
+    print("0입니다")
+else : 
+   sign ='양수' if num1 > 0 else '음수' 
+   parity = '짝수' if num1 % 2 == 0 else '홀수'
+
+   print(sign, '입니다')
+   print(parity, '입니다')
