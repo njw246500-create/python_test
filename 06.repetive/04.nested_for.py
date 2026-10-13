@@ -21,6 +21,9 @@ for dan in range(2, 10) :
 2*9 = 18
 '''
 
+# for 문 적기 어려우면 일단 출력을 먼저 적어보고 판단해보기 
+
+
 for i in range(1,10) : 
     for dan in range(2,10) :
         # print('%d*%d=%2d', %(dan, i, dan*i), end = '   ') # 끝에 바꾸기-> end  = '   '

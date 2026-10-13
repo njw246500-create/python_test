@@ -47,4 +47,4 @@ else :
 
 
 print(str, ': 회문' if str == str[::-1] else ': 회문 아님')
-print(f"{str} : {': 회문' if str == str[::-1] else ': 회문 아님'}")
+print(f"{str} : {': 회문' if str == str[::-1] else ': 회문 아님'}") # 따옴표 분류 잘 하기 
