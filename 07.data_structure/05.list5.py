@@ -16,7 +16,7 @@ list3 = [1,2,3]
 list3.append([4,5])
 print(list3) 
 
-# 리스트[]로 extend 하면 1차원의 데이터 맨 뒤에 들어감
+# 리스트[]로 extend 하면 1차원의 데이터 맨 뒤에 들어감. 대괄호 사라진 상태로 대입함.
 list4 = [1,2,3]
 list4.extend([4,5])
 print(list4)
