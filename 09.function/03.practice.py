@@ -92,6 +92,6 @@ def star_pyramid(rows) :
         # stars = '*' * (i*2+1)
         # print(space + stars)
 
-        print(' ' * (rows-(1+i)) + '*' * (i*2+1))
+        print(' ' * (rows-(1+i)) + '*' * (i*2+1)) # 공백을 앞에 두고 별 문자를 추가해서 만든것.
 
 star_pyramid(5)

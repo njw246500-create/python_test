@@ -15,7 +15,7 @@ p = st1.rfind("like")
 print(p)
 print(st1.rfind('like',0, p))
 
-#index() : fint() 가능은 같지만 없으면 예외 발생
+#index() : find() 가능은 같지만 없으면 예외 발생
 p = st1.index("like")
 print(p)
 # print(st1.index("love")) # 없으면 오류

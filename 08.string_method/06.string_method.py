@@ -20,7 +20,7 @@ print("문자로만 구성되어 있는가?", st5.isalpha())
 # 숫자나 문자로 구성되어있는지 검사
 print('숫자나 문자로 구성되어 있는가?', st1.isalnum())
 print('숫자나 문자로 구성되어 있는가?', st2.isalnum())
-print('숫자나 문자로 구성되어 있는가?', st3.isalnum())
+print('숫자나 문자로 구성되어 있는가?', st3.isalnum()) #공백 -> False
 print('숫자나 문자로 구성되어 있는가?', st4.isalnum())
 print('숫자나 문자로 구성되어 있는가?', st5.isalnum())
 
