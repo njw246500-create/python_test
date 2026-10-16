@@ -102,3 +102,4 @@ with open('11.file/practice.txt','r') as f:
 students = [[],[],[], ]
 with open('11.file/test.csv','r') as f:
     a = [line.strip().split('.') for line in f.read().splitlines()]
+

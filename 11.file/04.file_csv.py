@@ -9,6 +9,7 @@ with open('11.file/test.csv','r') as f:
     # lines = f.readlines()
     print(lines)
 
+    
     for line in lines :
     #     line = line.strip()
     #     print(line)
