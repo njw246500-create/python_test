@@ -1,0 +1,14 @@
+from abc import ABC, abstractmethod
+
+class Employee :
+    def __init__(self,name,emp_id):
+        self.__name = name
+        self.__emp_id = emp_id
+
+    def show_info(self) :
+        print(f"직원 이름 : {self.__name}, 직원 사번 : {self.__emp_id}")
+
+    @abstractmethod 
+
+    def calculate_salary(ABC) : 
+        pass 

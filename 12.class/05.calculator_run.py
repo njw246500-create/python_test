@@ -16,6 +16,6 @@
 
 # 3)
 from calculator05 import Calculator as c
-cal3 = c()
+cal3 = c() # 클래스 이름으로 객체생성
 print(cal3.plus(10, 20))
 print(cal3.multi(10,20))

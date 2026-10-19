@@ -28,7 +28,7 @@ class Car :
         print('색상 : ', self.color)
         print('속도 : ', self.speed)
 
-myCar = Car()
+myCar = Car() # 객체 생성후 이용! 그러면 Car()함수를 모두 이용할 수 있음. 
 myCar.set1() # 주석처리할 경우 오류남, set1으로 변수를 만든 후 output을 해야하므 호출할 때 변수가 생성되면서 초기화가 됨. 
 myCar.output()
 print('-'*30)

@@ -2,9 +2,9 @@
 # 변수를 초기화할때 사용
 
 class Car : 
-    def __init__(self, model, color, speed):
+    def __init__(self, model, color, speed): # car 객체 생성하면서 동시에 호출되는 함수, model, cololr, speed 라는 인스턴스 변수가 자동으로 생성된다. 
         print('생성자 호출')
-        self.model = model
+        self.model = model # 지역변수에 있는것을 인스턴스 변수로 대입 
         self.color = color
         self.speed = speed
 

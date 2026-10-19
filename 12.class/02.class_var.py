@@ -29,7 +29,7 @@ class Car :
 
 print('제조사 :', Car.maker)
 
-myCar1 = Car()
+myCar1 = Car() # 객체를 여러개 만드는 예시
 myCar1.set1()
 myCar1.output()
 print('-'*30)

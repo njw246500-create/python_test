@@ -1,5 +1,5 @@
 class Car : 
-    def __init__(self, speed=0, color='black', model='E-class') : 
+    def __init__(self, speed=0, color='black', model='E-class') : # 지역변수에 기본값을 넣어준 것.
         self.speed = speed
         self.color = color
         self.model = model

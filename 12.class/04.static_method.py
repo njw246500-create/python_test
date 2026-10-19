@@ -20,7 +20,7 @@ class Calc :
         print('static 메서드 호출')
         return x+y
 
-    def plus(self, x, y) : 
+    def plus(self, x, y) : # 인스턴스변수에는 self 가 들어감 ,나 자신의 객체가먼저 들어감. 
         print('인스턴스 메서드 plus() 호출')
         return x+y
 
@@ -32,7 +32,7 @@ class Calc :
         result2 = self.plus(x,y)
         return result1 + result2
 
-# print(Calc.plus1(100, 50))
+# print(Calc.plus1(100, 50)) # 객체 생성없이 선언가은! annotation 있는경우! 
 
 # cal1 = Calc()
 # print(cal1.plus(1,2))

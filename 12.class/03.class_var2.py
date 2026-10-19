@@ -2,7 +2,7 @@ class HelloWorld :
     msg = 'Python' # 클래스 변수
 
     def setEng(self) :
-        self.msg = 'Hello Python' # 인스턴스 변수
+        self.msg = 'Hello Python' # 인스턴스 변수 -> 객체가 선언해야지만 사용할 수 있는 변수
 
     def setKor(self) : 
         self.msg = '안녕하세요. 파이썬' # 인스턴스 변수
