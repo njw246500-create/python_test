@@ -7,5 +7,5 @@ class PartTimeEmployee(Employee) :
         self.__hours = hours
 
     def show_info(self) :
-            print(f"직원 이름 : {self.__hourly_wage}, 직원 사번 : {self.__hours}")
+            print(f"직원 이름 : {self.get_name}, 직원 사번 : {self.__hours}")
     

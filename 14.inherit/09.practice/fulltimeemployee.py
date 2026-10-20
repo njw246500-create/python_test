@@ -6,5 +6,5 @@ class FullTimeEmployee(Employee) :
         self.__monthly_salary = monthly_salary
 
     def show_info(self) :
-            print(f"직원 이름 : {self.name}, 직원 사번 : {self.__monthly_salary}")
+            print(f"직원 이름 : {self.get_name}, 직원 사번 : {self.__monthly_salary}")
     

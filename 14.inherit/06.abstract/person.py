@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class Person(ABC) : 
     def __init__(self, name, age, job=None):
-        self.name = name
+        self.name = name #self.name -> 인스턴스변수
         self.__age = age
         self.job = job
 

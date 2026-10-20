@@ -7,7 +7,8 @@ class Person(ABC) :
         self.__age = age
         self.__job = job
 
-
+    # private 사용할 경우 사용자가 볼 수 없기때문에 getter/ setter 메소드를 사용함
+    
     # getter 메소드 === 조회용
     def get_name(self) :
         return self.__name

@@ -15,7 +15,7 @@
     ***** from abc import ABC, abstractmethod
 
     - 본 클래스에서는 ABC클래스를 상속 받아야 한다.
-        class Kim(ABC) : 
+        class 클래스명(ABC) : 
 
 '''
 
@@ -34,7 +34,7 @@ park.introduce()
 # lee.show()
 
 # 추상클래스는 객체 생성 못함 
-# from person import Person
+# from person import Person # Person 은 추상클래스
 # person = Person()
 
 
