@@ -17,10 +17,6 @@
 
 '''
 
-
-'''
-정답 
-
 class Triangle :
     def getArea(self, b, h) :
         self.b1 = b
@@ -43,7 +39,7 @@ class Score :
         print('합계 : ', self.sum)
         print('평균 : ', self.avg)
 
-'''
+
 
 '''
 # 문1 # 

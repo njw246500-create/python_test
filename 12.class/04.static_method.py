@@ -15,7 +15,7 @@
 
 '''
 class Calc :
-    # @staticmethod 
+    @staticmethod 
     def plus1(self, x, y):
         print('static 메서드 호출')
         return x+y
@@ -32,7 +32,7 @@ class Calc :
         result2 = self.plus(x,y)
         return result1 + result2
 
-# print(Calc.plus1(100, 50)) # 객체 생성없이 선언가은! annotation 있는경우! 
+print(Calc.plus1(100, 50, 30)) # 객체 생성없이 선언가능! annotation 있는경우! # 정적 메서드에서는 self, x, y 3개 받음 
 
 # cal1 = Calc()
 # print(cal1.plus(1,2))
@@ -40,6 +40,6 @@ class Calc :
 # print('-'*30)
 
 # @staticmethod를 안 넣었을 때 
-cal2 = Calc()
-print(cal2.plus1(100,50))
+# cal2 = Calc()
+# print(cal2.plus1(100,50))
 # 오류남 : 첫번째 매개변수가 객체를 받는 self로 들어감
