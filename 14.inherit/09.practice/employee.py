@@ -10,7 +10,7 @@ class Employee :
     def show_info(self) :
         print(f"직원 이름 : {self.__name}, 직원 사번 : {self.__emp_id}")
 
-    @abstractmethod 
+    @abstractmethod # 추상메서드 -> 객체 안만들고도 사용가능한 메서드
 
     def calculate_salary(ABC) : 
         pass 
